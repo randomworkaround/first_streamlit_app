@@ -61,6 +61,4 @@ if streamlit.button('Get Fruit Load List'):
 #section to add a new fruit
 fruit_add = streamlit.text_input('What fruit would you like to add?')
 
-my_data_rows.append(fruit_add)
-streamlit.dataframe(my_data_rows)
 streamlit.write('Thanks for adding', fruit_add)
